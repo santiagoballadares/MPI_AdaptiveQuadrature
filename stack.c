@@ -1,4 +1,4 @@
-/* stack.h
+/* stack.c
  * 
  * Simple Stack type containing an array of doubles
  */
