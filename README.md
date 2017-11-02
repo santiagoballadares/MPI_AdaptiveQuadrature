@@ -3,11 +3,11 @@ Simple implementation of the adaptive quadrature algorithm using the bag of task
 
 Compile with: 
 
-      `gcc mpi_quadrature.c stack.h stack.c -lmsmpi -o mpi_quadrature.exe`
+      > gcc mpi_quadrature.c stack.h stack.c -lmsmpi -o mpi_quadrature.exe
 
 Run with: 
 
-      `mpiexec -n 8 mpi_quadrature.exe` 
+      > mpiexec -n 8 mpi_quadrature.exe
 
 where `-n x` sets the number of processes
 
